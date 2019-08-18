@@ -1,5 +1,7 @@
 module Euler
   class Fibonacci
+    attr_writer :max_term
+
     def initialize(max_term)
       @max_term = max_term
     end
@@ -43,5 +45,7 @@ module Euler
         return sum
       end
     end
+
+    private :swap, :fibonacci_even_only
   end
 end

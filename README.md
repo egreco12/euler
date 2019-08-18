@@ -13,3 +13,5 @@ fib = Euler::Fibonacci.new(4000000)
 puts "Result: #{fib.sum_even_fibonacci}"
 
 ```
+
+You may change the `max_term` value on the object to change the sum value.
